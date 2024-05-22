@@ -1,0 +1,66 @@
+manifest
+- package: example
+- versionName: 1.21
+- versionCode: 21
+	uses-sdk
+	- minSdkVersion: 8
+	- targetSdkVersion: 10
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	application
+	- icon: 2130837504
+	- label: 2130968576
+	- allowBackup: true
+		activity
+		- name: A0
+        - taskAffinity: .1
+		- configChanges: 32
+		- theme: 16973831
+		- label: 2130968576
+		- screenOrientation: 0
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: x11
+		activity
+		- name: A1
+        - taskAffinity: .1
+		activity
+		- name: A2
+        - taskAffinity: .1
+		activity
+		- name: A3
+        - taskAffinity: .1
+		activity
+		- name: A4
+        - taskAffinity: .1
+        - launchMode: 2
+		activity
+		- name: B0
+        - taskAffinity: .2
+		activity
+		- name: B1
+        - taskAffinity: .2
+		activity
+		- name: B2
+        - taskAffinity: .2
+		activity
+		- name: C0
+        - taskAffinity: .1
+        - launchMode: 3
+	fdroid
+	- fdroidserverid: 1af98e9f09b6929116694ec1234e2ce58dd28cd4 
+	- buildserverid: 87b04c69210bdd13d145ca362fff5da38f8a8404 

@@ -1,0 +1,5 @@
+**/build
+**/.DS_Store
+**/test
+**/.cache
+**/.ycm_extra_conf.py

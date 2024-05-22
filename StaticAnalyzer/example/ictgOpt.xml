@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <source name="example.A0">
+    <destination name="example.A1" type="Act2Act" method="&lt;B0: void launchAccessControlEditor()&gt;" InstructionId="3" extras="" flags="FLAG_ACTIVITY_NEW_TASK"/>
+  </source>
+  <source name="example.A1">
+    <destination name="example.A0" type="Act2Act" method="&lt;B0: void launchAccessControlEditor()&gt;" InstructionId="3" extras="" flags="FLAG_ACTIVITY_REORDER_TO_FRONT" finish=""/>
+  </source>
+</root>

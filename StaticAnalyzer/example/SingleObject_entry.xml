@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="au.com.darkside.XDemo.XServerActivity">
+    <SingleFragment>
+      <method method="void onCreate(android.os.Bundle)" methodtrace="void onCreate(android.os.Bundle)"/>
+      <source name="au.com.darkside.XDemo.XServerActivity"/>
+      <nodes>
+        <node method="XServerActivity onCreate" type="setContentView" unit="virtualinvoke r0.&lt;au.com.darkside.XDemo.XServerActivity: void setContentView(int)&gt;(2130903041)"/>
+      </nodes>
+    </SingleFragment>
+  </Component>
+  <Component source="au.com.darkside.XDemo.AccessControlEditor">
+    <SingleFragment>
+      <method method="void onCreate(android.os.Bundle)" methodtrace="void onCreate(android.os.Bundle)"/>
+      <source name="au.com.darkside.XDemo.AccessControlEditor"/>
+      <nodes>
+        <node method="AccessControlEditor onCreate" type="setContentView" unit="virtualinvoke r0.&lt;au.com.darkside.XDemo.AccessControlEditor: void setContentView(int)&gt;(2130903040)"/>
+      </nodes>
+    </SingleFragment>
+  </Component>
+</root>
